@@ -114,6 +114,7 @@ def makeTree(x0=0, y0=0, z0=0, l=200, allVertex=[], facesString=[]):
 # x0, y0, z0 - координаты центра фигуры.
 # rCircle, rCyl - радиусы нанизанных на цилиндр шариков и радиус самого цилиндра.
 # alVertex, facesString - все вершины и все ребра, отображающиеся на сцене.
+# k - количество нанизываемых шариков.
 
 
 def makeBarbecue(x0=0, y0=0, z0=0, k=1, rCircle=100, rCyl=50, allVertex=[], facesString=[]):
